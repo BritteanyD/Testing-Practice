@@ -1,0 +1,13 @@
+// 5. Test for the analyzeArray function
+
+const analyzeArray = require('./analyzeArray')
+
+test('analyzeArray should return the correct object', () => {
+    const result = analyzeArray([1, 8, 3, 4, 2, 6]);
+    expect(result).toEqual({
+      average: 4,
+      min: 1,
+      max: 8,
+      length: 6,
+    });
+  });
