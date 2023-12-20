@@ -1,4 +1,4 @@
-const capitalize = require('./script')
+const capitalize = require('./capitalize')
 
 // 1. Test for the capitalize function
 test('capitalize should capitalize the first character of a string', () => {
